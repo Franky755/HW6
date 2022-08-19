@@ -1,0 +1,84 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<title>HW6 by franky75</title>
+			<meta charset="utf-8"/>
+			<meta name="author" title="franky75"/>
+			<meta name="description" title="Homework 6 wrote by franky75"/>
+			<link rel="stylesheet" href="nomalize.css"/>
+			<style>
+				*{
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					-webkit-box-sizing: border-box;
+					margin: 0;
+					padding: 0;
+				}
+				.container{
+					height: 300px;
+					width: 700px;
+					font-family: helvetica, sans-serif;
+					margin: 80px auto;				
+				}
+				h2{
+					display: flex;
+					flex-direction: row;
+					font-size: 20px;
+					color: #6B6B6B;
+					margin-bottom: 30px;
+				}
+				h2:before, h2:after{
+					content: "";
+					flex: 1 1;
+					border-bottom: 1px solid;
+					margin: auto;
+					color: #909090;
+				}
+				h2:before{
+					margin-right: 10px;
+				}
+				h2:after{
+					margin-left: 10px;
+				}
+				ul{
+					list-style-type: none;
+					text-align: center;
+					font-size: 16px;
+					color: #fff;
+					line-height: 100px;
+				}
+				ul li{
+					border: 1px solid black;
+					border-radius: 4px;
+					background: #329DB8;
+					width: 150px;
+					height: 100px;
+					display: inline-block;
+					margin: 5px;
+					transition: 1s all;
+					-moz-box-sizing: 1s all;
+					-webkit-box-sizing: 1s all;
+				}
+				ul li:hover{
+					background: #D9DE50;
+					color: #3D3D3D;
+				}
+			</style>
+
+		</head>
+		<body>
+			<div class="container">
+					<h2 class="tittle">
+						Great examples built with boot slander
+					</h2>
+
+				<ul class="list">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JAVAScript</li>
+					<li>PHP</li>
+				</ul>
+		</div>
+		</body>
+
+	</html>
